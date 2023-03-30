@@ -1,5 +1,5 @@
 import React from 'react'
-import Default from '../../assets/default.jpg'
+import eze from '../../assets/eze.jpeg'
 import { BiRightArrow } from 'react-icons/bi'
 import './About.css'
 
@@ -13,7 +13,7 @@ const About = () => {
            en diciembre del 2022 me inscribi a un BootCamp para consolidar mis conocimientos y poder conseguir mi primer trabajo IT 
            aplicando las mejores practicas para devolver un codigo de la mejor calidad.
         </p>
-        <img src={Default} alt=''/>
+        <img src={eze} alt=''/>
         </div>
         <p>Estan son las tecnologias que utilizo actualmente.</p>
         <ul className='technologies'>
