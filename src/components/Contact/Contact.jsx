@@ -1,21 +1,34 @@
-import React from 'react'
-import { AiOutlineMail } from 'react-icons/ai'
-import { BsFillTelephoneFill , BsLinkedin, BsGithub } from 'react-icons/bs'
-import './Contact.css'
+import React from "react";
+import Swal from "sweetalert2";
+import { BsLinkedin, BsGithub } from 'react-icons/bs'
+import "./Contact.css";
 
 const Contact = () => {
-  return (
-    <div className='contact-container'>
-        <h2>- Contacto</h2>
-        <ul>
-            <li><AiOutlineMail/> ezequielariasdev@gmail.com</li>
-            <li><BsFillTelephoneFill/> +54 9 11 3211-0987</li>
-            <li><BsLinkedin/> <a href='https://www.linkedin.com/in/ezequiel-arias734/' target='_blan
-            '>Mi linkedin</a></li>
-            <li><BsGithub/> <a href='https://github.com/EzequielArias' target='_blank'>Mi github</a></li>
-        </ul>
-    </div>
-  )
-}
+  
+  const handleClick = (e) => {
+    navigator.clipboard.writeText(e.target.textContent)
+    Swal.fire({
+      title : "Se copio el mail en el clipboard",
+      timer : 1500,
+      icon : 'success',
+      background : "#112240",
+      iconColor : '#009846',
+      color : '#fff',
+    })
+  }
 
-export default Contact
+  return (
+    <div className="contact-container">
+      <h2 id="contact">- Contacto</h2>
+      <div className="social">
+          <p>Enviame un email <span onClick={handleClick}>ezequielariasdev@gmail.com</span> o sigueme en mis redes.</p>
+          <div>
+            <a href="https://www.linkedin.com/in/ezequiel-arias734/" target='_blank'><BsLinkedin/></a>
+            <a href="https://github.com/EzequielArias" target='_blank'><BsGithub/></a>
+          </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;

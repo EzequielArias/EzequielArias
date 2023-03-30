@@ -13,10 +13,9 @@ const Navbar = () => {
   return (
     <>
     <div className='Navbar-container_links' ref={navRef}>
-          <a>Home</a>
-          <a>Sobre mi</a>
-          <a>Proyectos</a>
-          <a>Contacto</a>
+          <a href='#about' onClick={showNavbar}>Sobre mi</a>
+          <a href='#projects' onClick={showNavbar}>Proyectos</a>
+          <a href='#contact' onClick={showNavbar}>Contacto</a>
     </div>
     <div className='btn-container'>
     <button 

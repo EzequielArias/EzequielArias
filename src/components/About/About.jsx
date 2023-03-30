@@ -6,7 +6,7 @@ import './About.css'
 const About = () => {
   return (
     <div className='about-container'>
-        <h2>- Sobre mi</h2>
+        <h2 id='about'>- Sobre mi</h2>
         <div className='about-section'>
         <p>Hola, mi nombre es Ezequiel Arias. Soy un apasionado por la programacion y el "Ethical Hacking".
            A finales del 2021 empecé a estudiar de manera autodidacta, e investigar sobre el infinito mundo de la tecnología
