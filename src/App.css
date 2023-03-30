@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.text {
+  height: 30vh;
+}
+
+#root{
+  background-color: #0a192f;
+}

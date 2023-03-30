@@ -11,19 +11,21 @@ const Navbar = () => {
     }
 
   return (
-    <div className={btn ? 'no-line' : 'line'}>
+    <>
     <div className='Navbar-container_links' ref={navRef}>
           <a>Home</a>
           <a>Sobre mi</a>
           <a>Proyectos</a>
           <a>Contacto</a>
     </div>
+    <div className='btn-container'>
     <button 
           className='nav-btn'
           onClick={showNavbar}>
             {btn ?  <FaTimes/> : <FaBars/>}
         </button>
     </div>
+    </>
 )
 }
 
