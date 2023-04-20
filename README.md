@@ -18,9 +18,13 @@
 
 <br>
 
+
 <h3> 🤝🏻 Mis contacto. </h3>
 
 <p align="center">
 
-&nbsp; <a href='https://www.linkedin.com/in/ezequiel-arias734/'></a>
-&nbsp; <a href=''></a>
+&nbsp; <a href='https://www.linkedin.com/in/ezequiel-arias734/'><img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" width="50" /></a>
+
+&nbsp; <a href='mailto:ezequielariasdev@gmail.com'><img src="https://img.icons8.com/plasticine/100/000000/gmail.png"  width="50" /></a>
+
+⭐️ From [Ezequiel](https://github.com/EzequielArias)
