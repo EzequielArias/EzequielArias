@@ -21,12 +21,10 @@
 
 <h3> 🤝🏻 contacto. </h3>
 
-<p style=display : "flex">
+<p style="display : flex;">
 
 &nbsp; <a href='https://www.linkedin.com/in/ezequiel-arias734/' target="_blank"><img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" width="50" /></a>
-
 &nbsp; <a href='mailto:ezequielariasdev@gmail.com' target="_blank"><img src="https://img.icons8.com/plasticine/100/000000/gmail.png"  width="50" /></a>
-
 &nbsp; <a href='https://wa.me/5491132110987' target="_blank"><img src="./llamada-telefonica.png" width="37"/></a>
 
 </p>
