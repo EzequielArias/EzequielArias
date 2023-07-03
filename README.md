@@ -14,7 +14,7 @@
 - 🌐 &nbsp; Javascript | Typescript | ReactJS | HTML | CSS
 - 💻 &nbsp; NodeJS | NestJS   
 - 🔧 &nbsp; Visual Studio code | Postman | Git
-- 🛢 &nbsp; PostgreSQL | Firebase 
+- 🛢 &nbsp; MySQL  
 
 <br>
 
