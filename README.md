@@ -28,3 +28,6 @@
 &nbsp; <a href='https://wa.me/5491132110987' target="_blank"><img src="./llamada-telefonica.png" width="34"/></a>
 
 </p>
+
+<img alt="DH" src="./DigitalHouse.png" width="50"/>
+
