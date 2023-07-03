@@ -29,5 +29,5 @@
 
 </p>
 
-<img alt="DH" src="./DigitalHouse.png" width="50"/>
+<img align="right" alt="DH" src="./DigitalHouse.png" width="400"/>
 
