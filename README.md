@@ -3,7 +3,7 @@
 
 <h3>👨🏻‍💻 Sobre mi</h3>
 
-- 🔭 &nbsp; Actualmente me encuentro cursando un BOOTCAMP.
+- 🔭 &nbsp; Actualmente me encuentro estudiando en la universidad de la UBA y continuamente formandome como programador.
 - 🤔 &nbsp; Explorar nuevas tecnologías y desarrollar soluciones de software.
 - 💼 &nbsp; FullStack developer.
 - 🌱 &nbsp; Entusiasta de la Ciberseguridad y la Inteligencia Artificial.
