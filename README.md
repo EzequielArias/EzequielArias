@@ -12,7 +12,7 @@
 <h3>🛠 Stack de tecnologías</h3>
 
 - 🌐 &nbsp; Javascript | Typescript | ReactJS | HTML | CSS
-- 💻 &nbsp; NodeJS | NestJS   
+- 💻 &nbsp; NodeJS | NestJS | JEST
 - 🔧 &nbsp; Visual Studio code | Postman | Git
 - 🛢 &nbsp; MySQL  
 
