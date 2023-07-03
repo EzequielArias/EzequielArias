@@ -32,3 +32,9 @@
 <img align="right" alt="DH" src="./DigitalHouse.png" width="400"/>
 <h2>Certificado de Digital House</h2>
 <a href="https://github.com/thrasheremperor/grupo_6_biciBikes">Link al proyecto final realizado en Digital House</a>
+
+
+
+
+
+<p>Para mas proyectos o practicas seleccione cualquiera de la lista de abajo ⬇</p>
