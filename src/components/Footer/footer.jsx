@@ -29,7 +29,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='right_box'>
-                    <img src='img/icon2.png' alt='icon'></img>
+                    <img src='../../img/icon2.png' alt='icon'></img>
                     <div className='contant'>
                         <div className='detail'>
                             <h2>Let's work <span>Together</span></h2>

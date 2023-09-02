@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className='right_box'>
-                <img src='img/icon2.png' alt='icon'></img>
+                <img src='../../img/icon2.png' alt='icon'></img>
                 <h2>Let's work <span>together</span></h2>
                     <div className='form'>
                         <input type='text' name='user_name' value={data.Name} placeholder='Name*' onChange={input}></input> 

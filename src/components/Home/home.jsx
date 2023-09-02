@@ -15,7 +15,7 @@ const Home = () => {
         <div className='left_container'>
           <div className='img_container'>
               <div className='img_box'>
-                <img src='img/me.jpeg' alt='me'></img>
+                <img src='/img/me.jpeg' alt='me'></img>
               </div>
           </div>
           <Link to='/about' className='link'>
@@ -37,7 +37,7 @@ const Home = () => {
             <div className='bottom_box'>
               <div className='box'>
                 <div className='img_box'>
-                  <img src='img/Sign.png' alt='sign' id='sign_id'/>
+                  <img src='/img/Sign.png' alt='sign' id='sign_id'/>
                 </div>
                 <Link to='/about' className='link'>
                 <div className='deatil'>
@@ -53,7 +53,7 @@ const Home = () => {
               </div>
               <div className='box'>
                 <div className='img_box'>
-                  <img src='img/my-works.png' alt='work'></img>
+                  <img src='/img/my-works.png' alt='work'></img>
                 </div>
                 <Link to='/work' className='link'>
                 <div className='deatil'>
@@ -75,7 +75,7 @@ const Home = () => {
         <div className='contant'>
           <div className='box'>
             <div className='img_box'>
-              <img src='img/gfonts.png' alt='fonts'></img>
+              <img src='/img/gfonts.png' alt='fonts'></img>
             </div>
             <Link to='/blog' className='link'>
             <div className='detail'>
