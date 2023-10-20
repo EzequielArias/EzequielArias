@@ -1,6 +1,7 @@
-# React + Vite
+<h2>Buenas!, Soy Ezequiel. <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="400"/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3>👨🏻‍💻 Sobre mi</h3>
 
 - 🔭 &nbsp; Actualmente me encuentro estudiando en la universidad de la UBA y continuamente formandome como programador.
 - 🤔 &nbsp; Explorar nuevas tecnologías y desarrollar soluciones de software.
