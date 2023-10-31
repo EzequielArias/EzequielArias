@@ -75,13 +75,13 @@ const Home = () => {
         <div className='contant'>
           <div className='box'>
             <div className='img_box'>
-              <img src='/img/gfonts.png' alt='fonts'></img>
+              <img src='/img/Github.png' alt='fonts' id='img-github'></img>
             </div>
-            <Link to='/blog' className='link'>
+            <Link to='https://github.com/EzequielArias' className='link' target='_blank'>
             <div className='detail'>
               <div className='info'>
-                <p>blog</p>
-                <h3>fonts</h3>
+                <p>Github</p>
+                <h3>Main</h3>
               </div>
                 <div className='icon'>
                     <AiOutlineDoubleRight />

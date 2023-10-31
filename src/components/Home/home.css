@@ -182,12 +182,19 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+#img-github {
+    height : 120px;
+    width : 200px;
+}
+
 .mid_container .contant .box
 {
     padding: 20px 20px;
     background: linear-gradient(to right, #292929, #141414);
     border-radius: 10px;
 }
+
 .mid_container .contant .box .link
 {
     text-decoration: none;

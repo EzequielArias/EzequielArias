@@ -137,6 +137,9 @@
     .footer .top_container .contant .left_box {
         width: 100%;
     }
+    .footer .bottom_container .container .nav {
+        font-size: 10px;
+    }
 
     .footer .top_container .contant .left_box .box .detail h3 {
         font-size: 26px;
@@ -157,3 +160,4 @@
         margin : 0;
     }
 }
+

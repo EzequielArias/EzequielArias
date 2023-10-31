@@ -164,10 +164,44 @@
 @media screen and (max-width : 768px) {
     .about .container .top_container {
         flex-direction: column;
+        width: 100%;
+    }
+
+    .about .container .mid_conatiner .container .exp {
+        font-size: 15px;
+    }
+    .about .container .mid_conatiner .container .edu h2 {
+        font-size: 15px;
+    }
+    .about .container .mid_conatiner .container .exp h2 {
+        font-size: 15px;
+    }
+    
+    .footer .top_container .contant .left_box .box {
+        padding: 20px 10px;
+    }
+
+    .about .container .top_container .right_box .contant .deatil {
+    
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .about .container .top_container .right_box {
         width : 100%;
         margin : 0;
+    }
+
+    .about .container .top_container .left_box .contant .img_box img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .about .container .top_container .left_box {
+        width : 100%;
+    }
+    .about .container .top_container .right_box .contant .heading h2
+    {
+        font-size:15px;
     }
 }

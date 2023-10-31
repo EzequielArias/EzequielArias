@@ -134,6 +134,10 @@
     color: #0f0f0f;
     background: #fff;
 }
+/*
+word-wrap: break-word; 
+overflow-wrap: break-word;
+*/
 
 @media screen and (max-width : 768px) {
     .contact .container {
@@ -147,5 +151,11 @@
     .contact .container .right_box {
         width: 100%;
         margin : 0;
+    }
+
+    .contact .container .left_box .info .box .detail{
+        word-wrap: break-word; 
+        overflow-wrap: break-word;
+        overflow : hidden;
     }
 }
