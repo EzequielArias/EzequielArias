@@ -24,9 +24,20 @@ const Contact = () => {
 
     const senddata = async (e) =>
     {
+
+        if(!data.message || !data.subject || !data.user_email || !data.user_name ){
+            swal.fire('Todos los campos son obligatorios')
+            return
+        }
+
+        if(!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(data.user_email)){
+            swal.fire('El email es invalido')
+            return
+        }
+
         emailjs.send('service_8k5bdfy','template_4dewpv7',data,'mt4KvFeldx9VABZUB')
         .then((res) => swal.fire('Email enviado'))
-        .catch((err) => consoe.log(err.text))
+        .catch((err) => console.log(err.text))
         setData({ user_name: '', user_email: '', subject:'', message:'' })
     }
 
