@@ -22,7 +22,7 @@ const Home = () => {
           <div className='detail_container'>
             <h4>Fullstack developer</h4>
             <h3>Ezequiel Arias</h3>
-            <p>I am Argentinian Fullstack Developer</p>
+            <p>¡Hola! Soy un programador full stack de Argentina.</p>
             <div className='icon'>
             <AiOutlineDoubleRight />
           </div>
@@ -32,7 +32,7 @@ const Home = () => {
         <div className='right_container'>
           <div className='contant'>
             <div className='top_box'>
-              <p>latest works and featured</p>
+              <p>últimos trabajos y destacados</p>
             </div>
             <div className='bottom_box'>
               <div className='box'>
@@ -43,7 +43,7 @@ const Home = () => {
                 <div className='deatil'>
                   <div className='info'>
                     <p>more about me</p>
-                    <h3>credentials</h3>
+                    <h3>credenciales</h3>
                   </div>
                   <div className='icon'>
                     <AiOutlineDoubleRight />
@@ -59,7 +59,7 @@ const Home = () => {
                 <div className='deatil'>
                   <div className='info'>
                     <p>showcase</p>
-                    <h3>projects</h3>
+                    <h3>proyectos</h3>
                   </div>
                   <div className='icon'>
                     <AiOutlineDoubleRight />
@@ -101,8 +101,8 @@ const Home = () => {
             <Link to='/services' className='link'>
             <div className='detail'>
               <div className='info'>
-                <p>specialiazation</p>
-                <h3>services offering</h3>
+                <p>specializations</p>
+                <h3>Mis tecnologias</h3>
               </div>
                 <div className='icon'>
                     <AiOutlineDoubleRight />
@@ -125,7 +125,7 @@ const Home = () => {
             <div className='detail'>
               <div className='info'>
                 <p>stay with me</p>
-                <h3>profiles</h3>
+                <h3>perfiles</h3>
               </div>
                 <div className='icon'>
                     <AiOutlineDoubleRight />

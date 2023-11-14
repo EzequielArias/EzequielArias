@@ -117,7 +117,7 @@
     resize: none;
     height: 200px;
 }
-.contact .container .right_box .form button
+.contact .container .right_box .form input
 {
     margin-top: 10px;
     background: #0f0f0f;
@@ -129,7 +129,7 @@
     transition: 0.5s;
     cursor: pointer;
 }
-.contact .container .right_box .form button:hover
+.contact .container .right_box .form input:hover
 {
     color: #0f0f0f;
     background: #fff;

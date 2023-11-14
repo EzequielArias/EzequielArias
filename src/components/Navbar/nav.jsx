@@ -11,15 +11,15 @@ const Nav = () => {
         <div className='links'>
             <ul>
                 <li>
-                    <Link to='/' className='link'>Home</Link>
-                    <Link to='/about' className='link'>About</Link>
-                    <Link to='/work' className='link'>Work</Link>
-                    <Link to='/contact' className='link'>Contact</Link>
+                    <Link to='/' className='link'>Inicio</Link>
+                    <Link to='/about' className='link'>Sobre mi</Link>
+                    <Link to='/work' className='link'>Projectos</Link>
+                    <Link to='/contact' className='link'>Contactos</Link>
                 </li>
             </ul>
         </div>
         <div className='btn'>
-            <Link to='/contact' className='btnlink'>Let's Talk</Link>
+            <Link to='/contact' className='btnlink'>Hablemos</Link>
         </div>
     </div>
     </>
