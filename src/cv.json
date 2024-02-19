@@ -1,0 +1,133 @@
+{
+    "basics": {
+      "name": "Ezequiel Arias",
+      "label": "Fullstack Developer",
+      "image": "",
+      "email": "ezequielariasdev@gmail.com",
+      "phone": "(+54) 9 11 3211-0987",
+      "url": "https://johndoe.com",
+      "summary": "Hola bienvenido a mi sitio web. Me llamo Ezequiel naci el 27 de abril de 2001.",
+      "location": {
+        "address": "?",
+        "postalCode": "B1667",
+        "city": "Malvinas Argentinas",
+        "countryCode": "ARG",
+        "region": "Buenos Aires"
+      },
+      "profiles": [{
+        "network": "Github",
+        "username": "EzequielArias",
+        "url": "https://github.com/EzequielArias"
+      },
+      {
+        "network": "Linkedin",
+        "username": "EzequielArias",
+        "url": "https://www.linkedin.com/in/ezequiel-arias734/"
+      }
+    ]
+    },
+    "work": [{
+      "name": "Software Factory FOR - IT",
+      "position": "Fullstack Developer",
+      "url": "https://company.com",
+      "startDate": "2023-10-20",
+      "endDate": "2024-3-15",
+      "summary": "Mi experiencia laboral incluye la creación de un sistema de gestión para una clínica de kinesiología, la automatización de un sistema de turnos y una app social. Durante este tiempo, he desarrollado habilidades sólidas en Javascript, NodeJS, ReactJS y bases de datos. Además, he demostrado mi capacidad para trabajar en equipo, aprender continuamente, brindar soluciones de software con mucha pasión y detalle, realizar Test-Driven Development y aplicar metodologías ágiles como SCRUM.",
+      "highlights": [
+        "Me volvi mesa de ayuda Back-end"
+      ]
+    }],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "Universidad de Buenas Aires (UBA)",
+      "url": "https://institution.com/",
+      "area": "Ingeniería informática",
+      "studyType": "Carrer",
+      "startDate": "2023-07-15",
+      "endDate": "2027-12-16",
+      "score": "9.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+        "institution": "Digital House",
+        "url": "https://institution.com/",
+        "area": "Fullstack web developer",
+        "studyType": "Bootcamp",
+        "startDate": "2020-07-6",
+        "endDate": "2021-4-30",
+        "score": "10",
+        "courses": [
+          "MySQL",
+          "NodeJS",
+          "Express",
+          "HTML",
+          "CSS",
+          "ReactJS"
+        ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    }]
+  }

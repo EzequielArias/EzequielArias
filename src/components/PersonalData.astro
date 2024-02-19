@@ -1,0 +1,40 @@
+---
+
+import { basics } from '@/cv.json';
+
+const { profiles } = basics;
+
+---
+
+<section>
+    <div>
+        <h3>Datos personales</h3>
+        <ul>
+            {
+            profiles.map(( network, i ) => {
+                return <li>{network.username}</li>
+            })
+            }
+        </ul>
+    </div>
+</section>
+
+<style>
+
+    section {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+
+    div {
+        width: 80%;
+        display : flex;
+        flex-direction: column;
+    }
+
+    li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+</style>
