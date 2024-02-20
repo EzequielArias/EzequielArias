@@ -1,0 +1,67 @@
+---
+ const SKILLS = [
+    "Javascript",
+    "Typescript",
+    "Jest - TDD",
+    "ReactJS",
+    "Redux",
+    "NodeJS",
+    "HTML",
+    "CSS",
+    "MySQL",
+    "Linux",
+    "Network",
+    "Metodologías ágiles SCRUM"
+ ]
+---
+
+
+<section>
+    <div>
+       <h3>Skills</h3>
+       <ul>
+        {
+            SKILLS.map((s) => {
+                return (
+                    <li><span>{s}</span></li>
+                )
+            })
+        }
+       </ul>
+    </div>
+</section>
+
+<style>
+     section {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    div {
+        width: 80%;
+        display : flex;
+        flex-direction: column;
+    }
+
+    ul {
+        display : flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        margin-top: 5px;
+    }
+
+    li {
+        margin: 0;
+        padding: 5px;
+        background-color: black;
+        border-radius: 8px;
+        font-weight: 500;
+    }
+
+    li > span {
+        color: white;
+    }
+</style>

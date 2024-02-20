@@ -1,18 +1,72 @@
 ---
 
 import { basics } from '@/cv.json';
+import Linkedin from '@/icons/Linkedin.astro';
+import Github from '@/icons/Github.astro';
+import Mail from '@/icons/Mail.astro';
+import Phone from '@/icons/Phone.astro';
+import WorldMap from '@/icons/WorldMap.astro';
+import Date from '@/icons/Date.astro';
 
-const { profiles } = basics;
+const { profiles, name, phone, email } = basics;
+
+const SOCIAL_ICONS : Record<string, any> = {
+    Github,
+    Linkedin
+}
 
 ---
 
 <section>
     <div>
-        <h3>Datos personales</h3>
+        <span>
+            <WorldMap/>
+            Argentina, Buenos Aires
+        </span>
+        <span>
+            <Date/>
+            27/04/2001
+        </span>
+
         <ul>
             {
-            profiles.map(( network, i ) => {
-                return <li>{network.username}</li>
+                email &&
+                <a
+                    href={`mailto:${email}`}
+                    title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <Mail/>
+                </a>
+            }
+            {
+                phone && (
+                <a
+                    href={`tel:${phone}`}
+                    title={`Llamar por teléfono a ${name} al número ${phone}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                <Phone />
+                </a>
+                )
+            }
+            {
+            profiles.map(({ network, url, username }) => {
+
+                const Icon = SOCIAL_ICONS[network];
+
+                return (
+                    <a
+                     href={url}
+                     title={`Visitar el perfil de ${name} en ${network}`}
+                     target="_blank"
+                     rel="noopener noreferrer"
+                    >
+                        <Icon/>
+                    </a>
+                )
             })
             }
         </ul>
@@ -25,6 +79,11 @@ const { profiles } = basics;
         display: flex;
         justify-content: end;
         width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        border-right: 1px solid #2f596e;
+        padding-right: 15px;
     }
 
     div {
@@ -33,8 +92,33 @@ const { profiles } = basics;
         flex-direction: column;
     }
 
-    li {
-        margin-top: 5px;
-        margin-bottom: 5px;
+    span {
+        display: flex;
+        align-items: center;
+
+        margin : 5px;
+        gap: 4px;
     }
+
+    ul {
+        display : flex;
+    }
+
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    a {
+        height : 32px;
+        width: 32px;
+        margin : 5px;
+        padding : 5px;
+        border: 1px solid black;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
+
 </style>
