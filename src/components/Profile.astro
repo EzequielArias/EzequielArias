@@ -2,6 +2,7 @@
 ---
 
 <section>
+    <span>.<span class="circle"></span></span>
     <div>
         <h3>Sobre mi</h3>
         <p>
@@ -22,9 +23,25 @@
 <style>
 
     section {
+        width: 100%;
         display: flex;
         justify-content: end;
+        border-left: 1px solid #2f596e;
+        position : relative;
+    }
+
+    span {
         width: 100%;
+        position: absolute;
+        margin-right: 13px;
+    }
+
+    .circle {
+        width : 15px;
+        height: 15px;
+        background: #2f596e;
+        text-align: start;
+        border-radius: 50%;
     }
 
     div {

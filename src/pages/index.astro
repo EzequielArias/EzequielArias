@@ -5,20 +5,47 @@ import Hero from '@/components/Hero.astro';
 import Profile from '@/components/Profile.astro';
 import PersonalData from '@/components/PersonalData.astro';
 import Skills from '@/components/Skills.astro';
+import Experience from '@/components/Experience.astro';
+import Education from '@/components/Education.astro';
+import KeyboardManagar from '@/components/KeyboardManagar.astro';
 ---
 
 <Layout title="Welcome to Astro.">
-	<Column>
-		<Hero/>
-		<PersonalData/>
-		<Profile/>
-		<Skills/>
-	</Column>
-	<Column>
-		<span>Ejercicio 2</span>
-	</Column>
+	<main>
+		<Column>
+			<Hero/>
+			<PersonalData/>
+			<Profile/>
+			<Skills/>
+		</Column>
+		<Column>
+			<Experience/>
+			<Education/>
+		</Column>
+	</main>
+	<KeyboardManagar/>
 </Layout>
 
 <style>
-	
+	main {
+		display: flex;
+		justify-content: center;
+		padding: 4rem;
+		width: 100%;
+		background-image: url('../../public/FondoCVweb.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 </style>
+
+<script>
+
+	document.addEventListener('mouseover', () => {
+		document.title = "Ezequiel Arias"
+	})
+
+	document.addEventListener('mouseout', () => {
+		document.title = "Hey, a donde vas ?"
+	})
+
+</script>

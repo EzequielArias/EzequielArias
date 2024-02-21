@@ -26,13 +26,36 @@
       }
     ]
     },
-    "work": [{
+    "work": [
+      {
       "name": "Software Factory FOR - IT",
       "position": "Fullstack Developer",
       "url": "https://company.com",
-      "startDate": "2023-10-20",
-      "endDate": "2024-3-15",
+      "startDate": "2023 - 10",
+      "endDate": "2024 - 3",
       "summary": "Mi experiencia laboral incluye la creación de un sistema de gestión para una clínica de kinesiología, la automatización de un sistema de turnos y una app social. Durante este tiempo, he desarrollado habilidades sólidas en Javascript, NodeJS, ReactJS y bases de datos. Además, he demostrado mi capacidad para trabajar en equipo, aprender continuamente, brindar soluciones de software con mucha pasión y detalle, realizar Test-Driven Development y aplicar metodologías ágiles como SCRUM.",
+      "highlights": [
+        "Me volvi mesa de ayuda Back-end"
+      ]
+    },
+    {
+      "name": "Programador Freelance",
+      "position": "Fullstack Developer",
+      "url": "https://company.com",
+      "startDate": "2024 - 2",
+      "endDate": "current",
+      "summary": "Desarrollo de un sistama interno para un taller mecanico ubicado en zona sur",
+      "highlights": [
+        "Me volvi mesa de ayuda Back-end"
+      ]
+    },
+    {
+      "name": "Digital House",
+      "position": "Fullstack Developer",
+      "url": "https://company.com",
+      "startDate": "2020-10",
+      "endDate": "2021-04-30",
+      "summary": "Desarrollamos un E-Commerce para una bicicletería en equipo, siguiendo la metodología SCRUM y cumpliendo objetivos en cada sprint. Nos inspiramos en diversos diseños de páginas y utilizamos herramientas como Figma y MockFlow para los wireframes, Express, template engines (ejs), CSS, Bootstrap, y MySQL con Sequelize para la aplicación",
       "highlights": [
         "Me volvi mesa de ayuda Back-end"
       ]
@@ -53,20 +76,39 @@
       "url": "https://institution.com/",
       "area": "Ingeniería informática",
       "studyType": "Carrer",
-      "startDate": "2023-07-15",
-      "endDate": "2027-12-16",
+      "startDate": "2023-07",
+      "endDate": "2027-12",
       "score": "9.0",
       "courses": [
-        "DB1101 - Basic SQL"
+        
+      ]
+    },
+    {
+      "institution": "Hack the box",
+      "url": "https://institution.com/",
+      "area": "Ciberseguridad",
+      "studyType": "Self Taugh",
+      "startDate": "2023 - 04",
+      "endDate": "Current",
+      "score": "10",
+      "courses": [
+        "Fundamentos de la cibersegurdad",
+        "Fundamentos de Linux",
+        "Fundamentos de Redes",
+        "Malware",
+        "Exploits",
+        "NMAP",
+        "Javascript Deobfuscation",
+        "Phishing"
       ]
     },
     {
         "institution": "Digital House",
         "url": "https://institution.com/",
-        "area": "Fullstack web developer",
+        "area": "Desarrollador Fullstack",
         "studyType": "Bootcamp",
-        "startDate": "2020-07-6",
-        "endDate": "2021-4-30",
+        "startDate": "2020 - 07",
+        "endDate": "2021 - 4",
         "score": "10",
         "courses": [
           "MySQL",
@@ -106,8 +148,11 @@
       ]
     }],
     "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Ingles",
+      "fluency": "Intermedio - B1"
+    },{
+      "language" : "Español",
+      "fluency" : "Native speaker"
     }],
     "interests": [{
       "name": "Wildlife",

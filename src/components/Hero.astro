@@ -6,11 +6,12 @@
 <section>
     <div>
         <figure>
+            <span class="circle"></span>
+            <span class="circle2"></span>
             <img src="../../public/img/ezePokerFace.jpeg" alt=""/>
         </figure>
     </div>
     <h2>Ezequiel <br/> Arias</h2>
-    <h4>Programador Fullstack</h4>
 </section>
 
 <style>
@@ -27,10 +28,13 @@
         padding-right: 15px;
     }
 
+    
+
     figure {
         border-radius: 50%;
         border : 2px solid #2f596e;
         padding : 5px;
+        position: relative;
     }
 
     img {
@@ -38,17 +42,102 @@
         border-radius: 50%;
         width : 155px;
         height : 155px;
+        padding: 5px;
+        z-index: inherit;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 35px;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family:'Times New Roman', Times, serif;
         font-weight: 600;
+        width: 100%;
     }
 
-    h4 {
-        margin-top: 10px;
+    .circle2 {
+        width: 19px;
+        height: 19px;
+        background: #2f596e;
+        border-radius: 50%;
+        position: absolute;
+        top : 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        margin : 135px;
     }
+
+    .circle {
+        width: 19px;
+        height: 19px;
+        background: #2f596e;
+        border-radius: 50%;
+        position: absolute;
+        top : 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        margin : 14px;
+    }
+
+    figure:hover > .circle {
+        width : 19px;
+        height: 19px;
+        border-radius: 50%;
+        position: absolute;
+        top : 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        margin: auto;
+        --webkit-animation : circle 5s linear infinite;
+        animation : circle 5s linear infinite;
+    }
+
+    figure:hover > .circle2 {
+        width : 19px;
+        height: 19px;
+        border-radius: 50%;
+        position: absolute;
+        top : 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        margin: auto;
+        --webkit-animation : circle2 5s linear infinite;
+        animation : circle2 5s linear infinite;
+    }
+
+    @-webkit-keyframes circle {
+        0%{
+            transform: rotate(0deg)translate(-165px)rotate(0deg);
+        }
+
+        100%{
+            transform: rotate(360deg)translate(-165px)rotate(-360deg);
+        }
+    }
+
+    @keyframes circle {
+        0% {
+            transform: rotate(0deg)translate(-85px)rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg)translate(-85px)rotate(-360deg);
+        }
+    }
+
+    @keyframes circle2 {
+    0% {
+        transform: rotate(360deg) translate(-85px) rotate(-360deg);
+    }
+    100% {
+        transform: rotate(0deg) translate(-85px) rotate(0deg);
+    }
+}
 
 </style>

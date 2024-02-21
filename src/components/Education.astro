@@ -1,0 +1,54 @@
+---
+    import { education } from '@/cv.json'
+---
+
+
+<section>
+    <h2>Educacion</h2>
+    <ul>
+        {
+            education.map(({ area, institution, startDate, endDate, courses }) => {
+                return (
+                    <li>
+                        <h4>{`${area} | ${institution}`}</h4>
+                        <span>{`${startDate} | ${endDate}`}</span>
+                        <div>
+                        {
+                            courses.map((c) => {
+                                return (
+                                        <span>
+                                            {c}
+                                        </span>
+                                    )
+                            })
+                        }
+                        </div>
+                    </li>
+                )
+            })
+        }
+    </ul>
+</section>
+
+<style>
+    section {
+        padding-left: 25px;
+    }
+
+    h4, span, div {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        letter-spacing: 0.7px;
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+    }
+</style>

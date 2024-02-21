@@ -36,6 +36,7 @@ const SOCIAL_ICONS : Record<string, any> = {
                     title={`Enviar un correo electrónico a ${name} al correo ${email}`}
                     target="_blank"
                     rel="noopener noreferrer"
+                    id={`${email}`}
                 >
                     <Mail/>
                 </a>
@@ -47,6 +48,7 @@ const SOCIAL_ICONS : Record<string, any> = {
                     title={`Llamar por teléfono a ${name} al número ${phone}`}
                     target="_blank"
                     rel="noopener noreferrer"
+                    id={`${phone}`}
                 >
                 <Phone />
                 </a>
@@ -63,6 +65,7 @@ const SOCIAL_ICONS : Record<string, any> = {
                      title={`Visitar el perfil de ${name} en ${network}`}
                      target="_blank"
                      rel="noopener noreferrer"
+                     id={`${network}`}
                     >
                         <Icon/>
                     </a>
@@ -114,11 +117,21 @@ const SOCIAL_ICONS : Record<string, any> = {
         width: 32px;
         margin : 5px;
         padding : 5px;
-        border: 1px solid black;
+        border: 1px solid #2f596e;
         display: inline-flex;
         justify-content: center;
         align-items: center;
         border-radius: 4px;
+        color : #2f596e;    
+    }
+
+    a:hover {
+        transform : scale(1.1);
+        transition: 0.5s ease; 
     }
 
 </style>
+
+<script>
+
+</script>
