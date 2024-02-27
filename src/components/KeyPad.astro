@@ -1,0 +1,47 @@
+---
+    import Linkedin from '../icons/Linkedin.astro';
+    import Github from "../icons/Github.astro";
+    import Threads from "../icons/Threads.astro";
+    import CV from '../icons/CV.astro';
+
+    const PAD_ICONS : Record<string, any> = [
+        Linkedin,
+        Github,
+        Threads,
+        CV
+    ] 
+
+---
+
+<div class="custom-alert">
+    <ul>
+        {
+            PAD_ICONS.map((svg : any) => {
+                return (
+                    <a>
+                        {svg}
+                    </a>
+                )
+            })
+        } 
+    </ul>
+</div>
+
+<style>
+    .custom-alert {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 9999;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+</style>

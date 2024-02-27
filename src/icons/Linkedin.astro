@@ -1,6 +1,17 @@
+---
+
+interface Props {
+  height? : number;
+  width? : number;
+}
+
+const { height, width } : Props = Astro.props;
+
+---
+
 <svg
-  height="16"
-  width="16"
+  height={height ? `${height}` : "16"}
+  width={width ? `${width}` : "16"}
   viewBox="0 0 24 24"
   xmlns="http://www.w3.org/2000/svg"
   ><title>LinkedIn</title><path
