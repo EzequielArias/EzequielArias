@@ -1,0 +1,70 @@
+---
+import Layout from '../layouts/Layout.astro';
+const carrouselArr = [
+  '../../public/img/Tamagochi.jpeg',
+  '../../public/img/ChillApp.png',
+  '../../public/img/Countries.png',
+  '../../public/img/Kine.png',
+  '../../public/img/Pokedex.png'
+];
+
+---
+<Layout title='Ezequiel Arias'>
+    <div class="container">
+        <h2>Proyectos</h2>
+        <div>
+            {
+                carrouselArr.map((img) => {
+                    return  ( <img src={img} alt="123"/> )
+                })
+            }
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../../public/FondoCVweb.png');
+        background-size: cover;
+		background-repeat: no-repeat;
+    }
+
+    h2 {
+        margin-top: 70px;
+        text-align: center;
+        margin-bottom: 30px;
+     }
+
+     div {
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+    img {
+        object-fit: contain;
+        height: 300px;
+        width: 33%;
+        padding: 15px;
+    }
+</style>
+
+
+<script>
+    /*const $ul = document.querySelector('ul');
+
+    setInterval(() => {
+        const firstChild = $ul?.firstElementChild;
+        const lastChild = $ul?.lastElementChild;
+        $ul!.insertBefore(firstChild!, lastChild!.nextSibling);
+        console.log('Change');
+    }, 2000)*/
+
+    /**
+     Hacer un array movible que cada elemento se mueva a su espacio siguiente y si
+     es el ultimo elemento del array que vuelva a ser el primero
+     */
+</script>
