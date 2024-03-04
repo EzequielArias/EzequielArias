@@ -1,12 +1,33 @@
 ---
 import Layout from '../layouts/Layout.astro';
 const carrouselArr = [
-  '../../public/img/Tamagochi.jpeg',
+  '../../public/img/Tamagochi.png',
   '../../public/img/ChillApp.png',
   '../../public/img/Countries.png',
   '../../public/img/Kine.png',
   '../../public/img/Pokedex.png'
 ];
+
+const tooltips = [
+    {
+        link : "https://github.com/EzequielArias/Tamagochi-ReactNative",
+        description : "Descripcion : Tamagochi con seleccion de personajes, barras de vida y botones para interactuar \nTecnologias : ReactNative, CSS"
+    },
+    {
+        link : "https://github.com/EzequielArias/ChillApp",
+        description : "Descripcion : Aplicacion de chat en tiempo real, con login chats individuales, seleccion de avatar, edicion de perfil y tweets \nTecnologias : React, HTML, CSS, NodeJS, Express, JWT, Axios, Typescript, MongoDB, Jest, Redux, DDD, TDD, Patrones de diseño"
+    },
+    {
+        link : "https://dashing-chimera-c833f2.netlify.app/",
+        description : "Descripcion : Catalogo de paises con filtros y buscador\nTecnologias : React, HTML, CSS, NodeJS, Typescript, Fetch "
+    },{
+        link : "https://github.com/EzequielArias",
+        description : "Descripcion : Sistema de gestion para clinica de kinesiologia con automatizacion de calendario, roles de admin, filtros y mas \nTecnologias : React, HTML, CSS, NodeJS, Typescript, MongoDB, Jest, Redux, DDD, TDD, Patrones de diseño"
+    },{
+        link : "https://formar-react-challenge-dzembj7l9-ezequielarias.vercel.app/",
+        description : "Descripcion : Catalogo de pokemons con filtrado, buscador y vista de detalle. \nTecnologias : React, HTML, CSS, Typescript, Redux, Patrones de diseño, Axios"
+    },
+]
 
 ---
 <Layout title='Ezequiel Arias'>
@@ -14,8 +35,12 @@ const carrouselArr = [
         <h2>Proyectos</h2>
         <div>
             {
-                carrouselArr.map((img) => {
-                    return  ( <img src={img} alt="123"/> )
+                carrouselArr.map((img, i) => {
+                    return  ( 
+                        <a href={tooltips[i].link} target="_blank">
+                            <img src={img} alt="123" title={tooltips[i].description}/>
+                        </a> 
+                        )
                 })
             }
         </div>
@@ -44,11 +69,21 @@ const carrouselArr = [
         flex-wrap: wrap;
      }
 
+     a {
+        width: 33%;
+     }
+
     img {
         object-fit: contain;
         height: 300px;
-        width: 33%;
+        width: 100%;
         padding: 15px;
+        transition: transform 0.3s ease; 
+    }
+
+    img:hover {
+        transform: scale(1.1); 
+        cursor: pointer;
     }
 </style>
 
